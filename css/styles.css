@@ -6,6 +6,8 @@ p {
 h1{
     color:green;
     font-size: 24px;
+    border: 2px solid powderblue;
+    padding: 30px;
 }
 
 .center{
