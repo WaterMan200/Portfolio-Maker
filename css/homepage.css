@@ -7,8 +7,7 @@
 
 body {
     background: #081b29;
-    color: #ededed;
-    
+    color: #ededed; 
 }
 
 .header {
@@ -22,6 +21,13 @@ body {
     justify-content: center;
 }
 
+.navbar{
+    background-color: hsl(205, 67%, 10%);
+    padding: 0px;
+    border: 0px;
+    
+}
+
 .navbar a {
     font-size: 18px;
     color: #ededed;
@@ -29,26 +35,40 @@ body {
     font-weight: 500;
     margin-left: 35px;
     transition: 0.3s;
+    overflow: hidden;
+    padding: 10px 15px;
     
 }
 
 .navbar a:hover {
     color: pink;
+    border-bottom: 3px solid white;
+    background-color: black;
+    
 }
 
 h1{
     height: 75vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     /* border: 2px solid powderblue; */
     padding: 0 10%;
     font-size: 56px;
     font-weight: 870;
+    flex-direction: column;
+    margin-bottom: 0;
 }
 
 p {
     font-size: 16px;
-    margin: -400px 10% 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10%;
+    margin-top: 5px;
+
+    /* max-width: 600px; */
 }
 
 /* ul {
