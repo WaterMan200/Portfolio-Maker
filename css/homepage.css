@@ -22,6 +22,13 @@ body {
     justify-content: center;
 }
 
+.navbar{
+    background-color: hsl(205, 67%, 10%);
+    padding: 0px;
+    border: 0px;
+    
+}
+
 .navbar a {
     font-size: 18px;
     color: #ededed;
@@ -44,11 +51,13 @@ h1{
     padding: 0 10%;
     font-size: 56px;
     font-weight: 870;
+    margin-top: 50px;
 }
 
 p {
     font-size: 16px;
-    margin: -400px 10% 20px 10%;
+    margin: 20px 10% 10px 10%;
+    
 }
 
 /* ul {
