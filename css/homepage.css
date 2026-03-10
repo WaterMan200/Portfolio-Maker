@@ -16,20 +16,13 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: black;
     display: flex;
     justify-content: center;
 }
 
 .navbar{
-    background-color: hsl(205, 67%, 10%);
-    padding: 0px;
-    border: 0px;
-    
-}
-
-.navbar{
-    background-color: hsl(205, 67%, 10%);
+    background-color: transparent;
     padding: 0px;
     border: 0px;  
      
@@ -57,18 +50,43 @@ body {
 h1{
     height: 75vh;
     display: flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
     /* border: 2px solid powderblue; */
     padding: 0 10%;
+    padding-bottom: 200px;
+    margin-top: 200px;
     font-size: 56px;
     font-weight: 870;
+
 }
 
 p {
-    font-size: 16px;
-    margin: -400px 10% 20px 10%;
+    font-size: 25px;
+    margin: 30px 10% 20px 10%;
 }
+h2{
+    font-size: 40px;
+    margin: 0px 10% 20px 10%;
+}
+
+.profile{
+    float: right;
+    display: flex;
+    margin-top: 0px;
+    margin-right: 50px;
+    height: 60vh;
+    border-radius: 10px;
+
+}
+.summary{
+    /*display: inline-flex;*/
+    align-items: center;
+    margin-top: -0px;
+}
+
 
 /* ul {
     list-style-type: none;
