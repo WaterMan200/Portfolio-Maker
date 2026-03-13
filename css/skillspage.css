@@ -8,6 +8,8 @@
 body {
     background: #081b29;
     color: #ededed; 
+    position: relative;
+    padding: 75px;
 }
 
 .header {
@@ -15,8 +17,10 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
-    background: transparent;
+    padding: 0;
+    height: 65px;
+    /* background: transparent; */
+    background: #081b29;
     display: flex;
     justify-content: center;
 }
@@ -25,6 +29,9 @@ body {
     background-color: hsl(205, 67%, 10%);
     padding: 0px;
     border: 0px;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
     
 }
 
@@ -37,6 +44,7 @@ body {
     transition: 0.3s;
     overflow: hidden;
     padding: 10px 15px;
+    border-bottom: 3px solid 081b29;;
     
 }
 
@@ -47,6 +55,45 @@ body {
     
 }
 
-p {
-    color:fuchsia;
+.skillpagetitle {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.skills{
+    width: 80%;
+    margin: auto;
+}
+
+.skill{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+    gap: 40px;
+}
+
+.skill_opposite{
+    flex-direction: row-reverse;
+}
+
+.skill img{
+    width: 500px;
+    height: auto;
+}
+
+.skill_text{
+    width: 500px;
+}
+
+.skill_text h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.skill_text p {
+    font-size: 18px;
+    line-height: 1.6;
 }
