@@ -152,10 +152,10 @@ h2{
 .buttons a{
     color: #ededed;
     text-decoration: none;
+    transition: all 2s;
     padding: 5px;
     text-align: center;
     border-radius: 15px;
-    transition: 0.2s;
     background: #2368CC;
     background: radial-gradient(at left top, #2368CC, #103898);
     width: 15%;
@@ -164,8 +164,9 @@ h2{
 }
 
 
-.buttons  :hover{
-    background: radial-gradient(at left top, #ffffff, #103898);
+.buttons :hover{
+    background: radial-gradient(at left top, #2d79ec, #1341ab);
+
 }
 .buttons a img{
     align-self: center;
@@ -182,5 +183,6 @@ h2{
     overflow: hidden;
     margin-top: auto;
     margin-bottom: auto;
+    pointer-events: none;
 
 }
