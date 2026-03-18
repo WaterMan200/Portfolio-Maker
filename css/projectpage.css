@@ -8,6 +8,8 @@
 body {
     background: #081b29;
     color: #ededed; 
+    position: relative;
+    /* padding: 75px; */
 }
 
 .header {
@@ -47,6 +49,45 @@ body {
     
 }
 
-p {
-    color: green;
+.projectspagetitle {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.projects {
+    width: 80%;
+    margin: auto;
+}
+
+.project {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+    gap: 40px;
+}
+
+.project_text {
+    width: 500px;
+}
+
+.project_opposite {
+    flex-direction: row-reverse;
+}
+
+.project img{
+    width: 500px;
+    height: auto;
+}
+
+.project_text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.project_text h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
 }
