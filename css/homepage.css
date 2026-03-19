@@ -9,7 +9,7 @@
 body {
     /*background: #081b29;*/
 background: #001a24;
-background: linear-gradient(118deg,rgb(0, 45, 65) 0%, rgb(21, 36, 70) 40%, rgb(33, 22, 99) 100%);
+background:  rgb(21, 36, 70) ;
     color: #ededed; 
 }
 
@@ -152,21 +152,23 @@ h2{
 .buttons a{
     color: #ededed;
     text-decoration: none;
-    transition: all 2s;
     padding: 5px;
     text-align: center;
     border-radius: 15px;
     background: #2368CC;
     background: radial-gradient(at left top, #2368CC, #103898);
     width: 15%;
-    height: auto;
-
+    height: 15vw;
 }
 
 
 .buttons :hover{
     background: radial-gradient(at left top, #2d79ec, #1341ab);
-
+    width: 16%;
+    transition: all 0.2s;
+    height: 16vw;
+    margin-top: -0.5vw;
+    border-radius: 19px;
 }
 .buttons a img{
     align-self: center;
@@ -176,13 +178,13 @@ h2{
     pointer-events: none;
 }
 .buttons a p{
-    font-size: 1.9vw;
+
     align-self: center;
     text-align: center;
+    font-size: 1.9vw;
     font-weight: 700;
     overflow: hidden;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: -1vw;
     pointer-events: none;
 
 }
