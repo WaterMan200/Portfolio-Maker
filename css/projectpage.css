@@ -8,8 +8,6 @@
 body {
     background: #081b29;
     color: #ededed; 
-    position: relative;
-    /* padding: 75px; */
 }
 
 .header {
@@ -24,10 +22,10 @@ body {
 }
 
 .navbar{
-    background-color: hsl(205, 67%, 10%);
+    background-color: transparent;
     padding: 0px;
-    border: 0px;
-    
+    border: 0px;  
+     
 }
 
 .navbar a {
@@ -35,18 +33,18 @@ body {
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: -4.5px;
     transition: 0.3s;
     overflow: hidden;
-    padding: 10px 15px;
+    padding: 20.5px 35px;
     
 }
 
 .navbar a:hover {
     color: pink;
     border-bottom: 3px solid white;
-    background-color: black;
-    
+    padding-bottom: 17px;
+    background: black;
 }
 
 .projectspagetitle {

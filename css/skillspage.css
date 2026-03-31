@@ -8,8 +8,6 @@
 body {
     background: #081b29;
     color: #ededed; 
-    position: relative;
-    padding: 75px;
 }
 
 .header {
@@ -17,22 +15,17 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 0;
-    height: 65px;
-    /* background: transparent; */
+    padding: 20px 10%;
     background: #081b29;
     display: flex;
     justify-content: center;
 }
 
 .navbar{
-    background-color: hsl(205, 67%, 10%);
+    background-color: transparent;
     padding: 0px;
-    border: 0px;
-    /* width: 100%; */
-    display: flex;
-    align-items: center;
-    
+    border: 0px;  
+     
 }
 
 .navbar a {
@@ -40,19 +33,18 @@ body {
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: -4.5px;
     transition: 0.3s;
     overflow: hidden;
-    padding: 10px 15px;
-    border-bottom: 3px solid 081b29;;
+    padding: 20.5px 35px;
     
 }
 
 .navbar a:hover {
     color: pink;
     border-bottom: 3px solid white;
-    background-color: black;
-    
+    padding-bottom: 17px;
+    background: black;
 }
 
 .skillpagetitle {
