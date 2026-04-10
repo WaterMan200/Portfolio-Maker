@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #081b29;
+    background: #07153d;
     color: #ededed; 
 }
 
@@ -110,13 +110,13 @@ h2{
     justify-content: center;
 }
 .highlights div{
-    border-color: aliceblue;
-    border-style: solid;
+
     width: 350px;
+    border-radius: 10px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    background-color:#0000004f;
+    background-color:#182e69;
 }
 .highlights div h3{
     margin-top: 15px;
