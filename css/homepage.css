@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #07153d;
+    background: #162038;
     color: #ededed; 
 }
 
@@ -16,7 +16,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #081b29;
+    background: #161b2e;
     display: flex;
     justify-content: center;
 }
@@ -59,20 +59,20 @@ h1{
     align-items: center;
     justify-content: center;
     padding: 0 10%;
-    padding-bottom: 180px;
+    padding-bottom: 140px;
     margin-top: 160px;
-    font-size: 80px;
+    font-size: 64px;
     font-weight: 870;
 
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
     margin: 30px 10% 20px 10%;
 }
 
 h2{
-    font-size: 50px;
+    font-size: 40px;
     margin: 0px 10% 20px 10%;
     text-align: center;
 }
@@ -80,104 +80,105 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    padding-bottom: 100px;
+    gap: 8px;
+    padding-bottom: 40px;
 }
 .summary h2{
-    font-size: 50px;
+    font-size: 40px;
     text-align: left;
 }
 
 .summary img{
     margin-top: 0px;
-    height: 400px;
+    height: 320px;
     border-radius: 10px;
-    margin-left: 50px;
+    margin-left: 40px;
 
 
 }
 .summary div{
-    padding-right:50px;
-    font-size: 35px;
-    width: 600px;
+    padding-right:40px;
+    font-size: 28px;
+    width: 480px;
     margin-left: 10px ;
     overflow: hidden;
 }
 .highlights{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 32px;
     justify-content: center;
 }
 .highlights div{
 
-    width: 350px;
+    width: 280px;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     display: flex;
     flex-direction: column;
-    background-color:#182e69;
+    background-color:#2c395ca1;
 }
 .highlights div h3{
-    margin-top: 15px;
-    margin-bottom: -10px;
+    margin-top: 12px;
+    margin-bottom: -8px;
     text-align: center;
-    font-size: 300%;
+    font-size: 240%;
 }
 .highlights div img{
-    margin: 10px;
-    border-radius:5px ;
+    margin: 8px;
+    border-radius:4px ;
     
 }
 .highlights div a{
     align-self: center;
-    padding: 10px;
+    padding: 8px;
     border-radius: 50px;
     background-color: rgb(35, 85, 210);
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     color: aliceblue;
     text-decoration: none;
 }
 .highlights div a:hover {
     border-bottom: 3px solid white;
     background-color: rgb(47, 118, 250);
-    margin-bottom: 17px;
+    margin-bottom: 13.6px;
     transition: 0.2s;
 }
 .buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 35px;
-    margin-bottom: 50px;
+    gap: 28px;
+    margin-bottom: 100px;
 }
 .buttons a{
     color: #ededed;
     text-decoration: none;
-    padding: 5px;
+    padding: 4px;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 12px;
     background: #2368CC;
     background: radial-gradient(at left top, #2368CC, #103898);
-    width: 200px;
-    height: 195px;
+    width: 160px;
+    height: 156px;
 }
 
 
 .buttons :hover{
     background: radial-gradient(at left top, #2d79ec, #1341ab);
-    width: 220px;
+    width: 176px;
     transition: all 0.2s;
-    height: 215px;
+    height: 172px;
     margin-top: -0.5vw;
-    border-radius: 19px;
+    border-radius: 15.2px;
     font-size: 115%;
+    margin-bottom: 84px;
 }
 .buttons a img{
     align-self: center;
     width: 70%;
-    padding-top: 15px;
-    padding-bottom: 13px;
+    padding-top: 12px;
+    padding-bottom: 10.4px;
     pointer-events: none;
 }
 .buttons a p{
