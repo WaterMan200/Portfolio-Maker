@@ -4,6 +4,11 @@ This project serves to help students easily create online portfolios without a s
 ## Introduction to the Template
 This Portfolio Maker Template has various features that students can utilize to make their portfolio stand out. For example, there is a navigation bar at the top which can be customized but already comes with some smooth quality of life features such as a hovering animation. 
 
+<details>
+<summary>
+More Details about the Template
+</summary>
+
 ### The Home Page
 The home page comes with an about me section that users can use to provide a brief introduction about themselves. There is also a highlighted projects section which can display some of the user's best projects with a button that takes them to a more detailed page of their project. At the end of the home page, there is a set of buttons that the user can click in order to travel to other pages similar to the navigation bar. 
  
@@ -18,6 +23,7 @@ The home page comes with an about me section that users can use to provide a bri
 
  ### The Contact Page
  The contact page is the last page of the portfolio. This is the page where the user can upload their personal information in order to be contacted by people reading the website. There is an email which if you click can be automatically copied (there is no popup saying that you have copied it currently), and there are buttons which are going to link to other places where they can reach out to the user. 
+</details>
 
 ## Getting Started with the Template
  There are many ways you can modify this template in order to suit your needs. We will be going in detail for some of the ways you can change the colors, images, etc. This guide is going to be for people who are new and experienced with HTML and CSS so everyone can utilize and customize this portfolio template to their wishes. 
@@ -29,10 +35,18 @@ In this section, we'll talk about how to clone this repository to your computer 
 1. [Download Git](https://git-scm.com/install/)
 2. Open VS Code (make sure it is the latest version). 
 3. Make a [GitHub account](https://github.com/) if you do not have one already. 
+4. Link your VS Code to your GitHub account
+    - Select the GitHub icon in the activity bar. 
+    - Click **Sign In** and follow the prompt to authenticate with GitHub in the browser. 
+    - If done correctly, you should be directed back to VS code. 
+        - If you have any troubles, visit [VS Code's detailed guide here.](https://code.visualstudio.com/docs/sourcecontrol/github)
 
 #### Getting Started with Downloading the Repository 
-
-
+1. Click the arrow next to the **green Code button**.
+2. Click **download ZIP.**
+3. Locate the ZIP folder and right click and extract all. 
+4. Open VS Code, locate the folder, click it and then open the folder named `Portfolio-Maker-main` inside of the extracted folder in VS Code. 
+5. Click on the GitHub icon in the activity bar and then click publsh repos
 
  ### Images
  
@@ -41,10 +55,13 @@ In this section, we'll talk about how to clone this repository to your computer 
  2. Move the file of the image under the images folder in order to be able to use it in the code. 
  3. Go the **HTML** file of which page you want to place the image in. We will be taking one of the image under the experience page as an example. 
  4. Locate this code segment `<img src="/images/experiencetemplateimage.jpg" alt="ExperienceTemplateImage">` within that file - there will be multiple instances and you will have to change each one individually. 
- 5. This segment above is a image tag that you have to use in order to insert images onto an HTML page. 
+ 5. This segment above is a image tag that you have to use in order to insert images onto an HTML page.
+    - Essentially, you will have to replace the name of the file (in this case it's `experiencetemplateimage.jpg`) with the name of the new file that you have uploaded to the folder.
+    - The phrase `alt="ExperienceTemplateImage"` is what the image will be called if it not able to load, this text is what the user will see instead of the image.
 
 <br>
- <details>
+
+<details>
 <summary>How Images Work in HTML</summary>
 
 ### Images in HTML
