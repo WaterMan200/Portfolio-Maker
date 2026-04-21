@@ -57,7 +57,14 @@ There are 2 ways of "downloading"/modifying the actual repository. The first met
 2. Click **download ZIP.**
 3. Locate the ZIP folder and right click and extract all. 
 4. Open VS Code, locate the folder, click it and then open the folder named `Portfolio-Maker-main` inside of the extracted folder in VS Code. 
-5. Click on the GitHub icon in the activity bar and then click publsh repos
+5. Click on the GitHub icon in the activity bar and then click **Initiatlize Repository**.
+6. You should then be brought to a screen with a list of changes that you have made that are avaliable to push. Type a message above the button that says **Commit** that says something along the lines of "intializing repository". 
+7. Click on the arrow pointing downwards next to the **Commit** button and click **Commit & Push**. 
+    - If there is a pop-up saying something along the lines of "There are no staged changes. Would you like to stage your changes and commit", click yes. 
+8. Wait for the changes to be pushed. After that, there should be a button that says **Publish branch** which you should click in order for your repository to be created and displayed on your GitHub account.
+
+### Creating Your Website
+
 
  ### Modifying Images
  
