@@ -41,14 +41,25 @@ In this section, we'll talk about how to clone this repository to your computer 
     - If done correctly, you should be directed back to VS code. 
         - If you have any troubles, visit [VS Code's detailed guide here.](https://code.visualstudio.com/docs/sourcecontrol/github)
 
-#### Getting Started with Downloading the Repository 
+### Important Notice
+There are 2 ways of "downloading"/modifying the actual repository. The first method is to fork the repository which will create a personal branch of the repository which you can modify but will be visible under the Forks tab in this GitHub Repository Fork's page. The other method is to download the repository and create a personal repository which will not be linked to this repository in anyway. We will show you how to do both. The Forking method is much easier but allows your code to be public on this main template repository whereas the second method allows you to keep your code to yourself without linking it to this project. 
+
+#### Forking the Repository - The Easier Method
+1. Go to the top of this repository's page and click the **Fork** button in the top right corner. 
+2. Name the repository something of your choice - preferably something that allows you to identify the project easily. Give it a description if you wish to.
+3. Copy the link of the newly created repository from the search bar.
+4. Open VS Code, then click on the version control / GitHub logo on the activity bar and select **Clone Repository**. 
+5. Paste the URL that you just copied and select a place for the local version of the repository to be stored on your computer. 
+
+
+#### Getting Started with Downloading the Repository - The Private Method
 1. Click the arrow next to the **green Code button**.
 2. Click **download ZIP.**
 3. Locate the ZIP folder and right click and extract all. 
 4. Open VS Code, locate the folder, click it and then open the folder named `Portfolio-Maker-main` inside of the extracted folder in VS Code. 
 5. Click on the GitHub icon in the activity bar and then click publsh repos
 
- ### Images
+ ### Modifying Images
  
  Changing images is going to be nearly the same for all of the pages. Here is how you can do it:
  1. Download the image that you want to use and locate it in your file explorer. Make sure there is a easily spelled name. 
@@ -60,7 +71,6 @@ In this section, we'll talk about how to clone this repository to your computer 
     - The phrase `alt="ExperienceTemplateImage"` is what the image will be called if it not able to load, this text is what the user will see instead of the image.
 
 <br>
-
 <details>
 <summary>How Images Work in HTML</summary>
 
@@ -73,6 +83,9 @@ This tag is pretty simple to use. There are only 2 attributes that are required 
 * `src` - this the path (think of src as the location of the item on your computer) of the image
 * `alt` - this is the alternate text for the image - useful if the image cannot load and then displays this text to the user. 
 
-There are other fancy little tricks that you are able to do as well. To learn more about images in HTML, go to the [W3chools page on images in HTML](https://www.w3schools.com/html/html_images.asp). 
+There are other fancy little tricks that you are able to with images in HTML with other optional attributes. To learn more about images in HTML, go to the [W3chools page on images in HTML](https://www.w3schools.com/html/html_images.asp). 
 
 </details>
+
+### Modifying the Color Scheme
+Modifying the color scheme is a rather simple task to do. You generally just have to change CSS files in order to change it as this template relies completely on CSS files for its styling. Anytime you see a tag named `color`, `background`, `background-color`, or `border-bottom`, you can be assured that these tags are being used in order to set the color of something in the webpage. 
