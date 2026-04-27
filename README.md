@@ -64,7 +64,16 @@ There are 2 ways of "downloading"/modifying the actual repository. The first met
 8. Wait for the changes to be pushed. After that, there should be a button that says **Publish branch** which you should click in order for your repository to be created and displayed on your GitHub account.
 
 ### Creating Your Website
+In order to host your portfolio online via GitHub, you have to do the following:
+1. Go to the repository that you made for your portfolio (not this one), and go to settings. 
+2. Click the settings tab at the top of the repository and click on the **Pages** option under the Code and Automation Section. 
+3. Under the **Build and Deployment** section, click the option that says **Deploy from a branch**.
+4. For the branch, choose the branch named **main** and click save. 
+5. After you do this, it should be checking your repository and should generate a link at the top of the page with the portfolio. This might take a minute, so keep refreshing until you see the link. 
 
+This portfolio webpage will be updated everytime you push changes to the repository, specifically the main branch. 
+
+For a video tutorial on how to do this, [click here](https://youtu.be/DB_PGpJFU1A?t=220) (video links to the time when the tutorial starts showing how to host it without a custom domain, you can watch the full tutorial if you want to learn how to host it on a personal custom domain).
 
  ### Modifying Images
  
@@ -96,3 +105,5 @@ There are other fancy little tricks that you are able to with images in HTML wit
 
 ### Modifying the Color Scheme
 Modifying the color scheme is a rather simple task to do. You generally just have to change CSS files in order to change it as this template relies completely on CSS files for its styling. Anytime you see a tag named `color`, `background`, `background-color`, or `border-bottom`, you can be assured that these tags are being used in order to set the color of something in the webpage. 
+
+Just change the hex color code associated with each thing and see how it changes the website. Keep playing around with different combinations, colors, etc. to find something that you really like in order to make this portfolio yours. 
