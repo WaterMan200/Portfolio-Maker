@@ -107,3 +107,24 @@ There are other fancy little tricks that you are able to with images in HTML wit
 Modifying the color scheme is a rather simple task to do. You generally just have to change CSS files in order to change it as this template relies completely on CSS files for its styling. Anytime you see a tag named `color`, `background`, `background-color`, or `border-bottom`, you can be assured that these tags are being used in order to set the color of something in the webpage. 
 
 Just change the hex color code associated with each thing and see how it changes the website. Keep playing around with different combinations, colors, etc. to find something that you really like in order to make this portfolio yours. 
+
+### Modifying the Content
+This is probably the part that requires the most amount work. Creating a portfolio that is truly unique to you is something that takes a lot of work and thought as it is something that represents you so you want to make sure it is something that really is personal and represents who you are as a person.
+
+
+#### Editing the Navigation Bar
+Whenever you want to change the content of something on your portfolio, make sure you are in the appropriate `.html` file. Changing the content of the portfolio really depends on what you want to change. If you want to change a title or some kind of heading, you are more than likely going to change something with the `h[number]` (such as a `h1` or`h2` tag). If you want to change one of the navigation bar topics, locate the following lines of code:
+
+     <header class="header">
+            <nav class="navbar">
+                    <a href ="../index.html">Home</a></li>
+                    <a href ="./skills.html" class="active">Skills</a></li>
+                    <a href ="./experience.html">Experience</a></li>
+                    <a href ="./projects.html">Projects</a></li>
+                    <a href ="./contact.html">Contact</a></li>
+            </nav>
+        </header>
+
+Change the part that has the actual name - for example the **Projects** in the `<a href ="./projects.html">Projects</a></li>` that comes after the file name. Make sure to do this in every single file to keep the name updated on every page. 
+
+##### Editting the description for a Skill/Project/Experience
