@@ -113,7 +113,7 @@ This is probably the part that requires the most amount work. Creating a portfol
 
 
 #### Editing the Navigation Bar
-Whenever you want to change the content of something on your portfolio, make sure you are in the appropriate `.html` file. Changing the content of the portfolio really depends on what you want to change. If you want to change a title or some kind of heading, you are more than likely going to change something with the `h[number]` (such as a `h1` or`h2` tag). If you want to change one of the navigation bar topics, locate the following lines of code:
+Whenever you want to change the content of something on your portfolio, make sure you are in the appropriate `.html` file. Changing the content of the portfolio really depends on what you want to change. If you want to change a title or some kind of heading, you are more than likely going to change something with the `h[number]` (such as a `h1` or `h2` tag). If you want to change one of the navigation bar topics, locate the following lines of code in any of the html files:
 
      <header class="header">
             <nav class="navbar">
@@ -127,4 +127,4 @@ Whenever you want to change the content of something on your portfolio, make sur
 
 Change the part that has the actual name - for example the **Projects** in the `<a href ="./projects.html">Projects</a></li>` that comes after the file name. Make sure to do this in every single file to keep the name updated on every page. 
 
-##### Editting the description for a Skill/Project/Experience
+##### Editing the description for a Skill/Project/Experience
