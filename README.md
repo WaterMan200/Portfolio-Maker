@@ -113,7 +113,7 @@ This is probably the part that requires the most amount work. Creating a portfol
 
 
 #### Editing the Navigation Bar
-Whenever you want to change the content of something on your portfolio, make sure you are in the appropriate `.html` file. Changing the content of the portfolio really depends on what you want to change. If you want to change a title or some kind of heading, you are more than likely going to change something with the `h[number]` (such as a `h1` or `h2` tag). If you want to change one of the navigation bar topics, locate the following lines of code in any of the html files:
+If you want to change one of the navigation bar topics, locate the following lines of code in any of the html files:
 
      <header class="header">
             <nav class="navbar">
@@ -127,15 +127,66 @@ Whenever you want to change the content of something on your portfolio, make sur
 
 Change the part that has the actual name - for example the **Projects** in the `<a href ="./projects.html">Projects</a></li>` that comes after the file name. Make sure to do this in every single file to keep the name updated on every page. 
 
-##### Editing the description for a Skill/Project/Experience
+#### Editing Headers for Skill/Project/Experience
+Whenever you want to change the content of something on your portfolio, make sure you are in the appropriate `.html` file. Changing the content of the portfolio really depends on what you want to change. If you want to change a title or some kind of heading, you are more than likely going to change something with the `h[number]` (such as a `h1` or `h2` tag). 
+
+<details>
+<summary>An Example of Editing the Header</summary>
+Here is an example of how you can modify a header on the Experience page.
+
+First, locate the following code under the `skills.html` file under the `html` folder. 
+
+         <h1 class="experiencepagetitle">My Experience</h1>
+         <section class="experiences">
+            <div class="experience">
+                <div class="experience_text">
+                    <h2>Experience 1</h2>
+                    <p>HEllo!
+                        <br>
+                        Test
+                    </p>
+                </div>
+
+This section specifically has the header for the entire page and the header for each indviidual experience as well. The page title has the header tag `<h1>` which is the biggest header format. This the line which has the page title:
+`<h1 class="experiencepagetitle">My Experience</h1>`. As we know, all the content that is supposed to go inside the website should be inside either header or paragraph tags. This means if you want to change the page title all you have to do is change the text that is within the `<h1>` opening and `</h1>` closing tag, that being the **My Experience** text in this situation.
+
+To change any of the specific experience title, you can apply similar principles to it. The experience specific titles are using the `<h2>` tags which is a smaller header compared to `<h1>`. To change the experience specific title, simply change the text between the `<h2>` opening and `</h2>` closing tag (in this situation, it being the text **Experience 1**). 
+
+</details>
+
+#### Editing the description for a Skill/Project/Experience
 If you want to change the description for any of the skills, projects or experiences go to the page's HTML file that you want to modify it for. Then, locate any of the `<p>` tags that are in the file. Between the `<p>` and the `</p>` tags is what contains the actual content that goes on the webpage. Change the content between the opening and the closing tag in order to change what the description of that skill is. 
 
+<details>
+<summary>An Example of Editing a Description</summary>
+Let's look at how you can edit the **Projects** HTML file in order to change the content description. 
+
+First locate the following code:
+```
+            <div class="project">
+                <div class="project_text" id="p1">
+                <h2>Project 1</h2>
+                <p>This is my project 1 description!
+                    <br>
+                    I need to add more to it!
+                </p>
+                </div>
+                <img src="../images/project1templateimagereal.jpg" alt="project 1 template image">
+            </div>
+```
+`<p>` or **paragraph** tags are used in HTML to primarily write the main content on the board. This tag needs to be opened and closed (open: `<p>`, close: `/<p>`) and the content needs to go inside the opening and closing of the tag. See the code above to look at an example of this. 
+
+Once you understand that, all you need to do in order to change the description of that topic (in this case, it would be project 1's description) is to modify the content that is inside the `<p>` and `</p>` tags. Know that moving onto the next line does not automatically go to the next line on the website. You need to use something like the `<br>` tag for that (more on that in the next collapsed section/dropdown). 
+
+</details>
+
+<br>
 <details>
 <summary>Formatting The Content</summary>
 
 ### Formatting Text In HTML
 You are able to format text in HTML by putting the content between the tags. 
-The tags that are avaliable for formatting are:
+Some of the tags that are avaliable for formatting are:
 - `<b>` - Bold text
 - `<i>` - Italic text
 - `<small>` - Small text
@@ -157,3 +208,4 @@ All of the formatting tags mentioned above should be used within a `<p>` tag. Fo
 
 `<p> This is how you can <b> bold </b> and <i> italicize </i> things. </p>`
 </details>
+
