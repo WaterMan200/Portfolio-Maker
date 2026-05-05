@@ -128,3 +128,32 @@ Whenever you want to change the content of something on your portfolio, make sur
 Change the part that has the actual name - for example the **Projects** in the `<a href ="./projects.html">Projects</a></li>` that comes after the file name. Make sure to do this in every single file to keep the name updated on every page. 
 
 ##### Editing the description for a Skill/Project/Experience
+If you want to change the description for any of the skills, projects or experiences go to the page's HTML file that you want to modify it for. Then, locate any of the `<p>` tags that are in the file. Between the `<p>` and the `</p>` tags is what contains the actual content that goes on the webpage. Change the content between the opening and the closing tag in order to change what the description of that skill is. 
+
+<details>
+<summary>Formatting The Content</summary>
+
+### Formatting Text In HTML
+You are able to format text in HTML by putting the content between the tags. 
+The tags that are avaliable for formatting are:
+- `<b>` - Bold text
+- `<i>` - Italic text
+- `<small>` - Small text
+- `<mark>` - Marked text
+- `<del>` - Strikethrough text 
+- `<sub>` - Subscript text
+- `<sup>` - Superscript text
+
+There are other tags that can be utilized in order to format your website in a aesthetic manner. You can find more details at the [W3 schools website here](https://www.w3schools.com/html/html_formatting.asp).
+
+Another way to format your text is to have breaks, horizontal lines, and preformatted text. Here is how you can do that:
+- `<br>` - Creates a break line - acting for the text after this to go onto the next line.
+- `<hr>` - Creates a horizontal line to to separate content on the page. 
+- `<pre>` - Preserves the line breaks and spaces that you have in typing.
+
+For more information about these 3 specific tags, go to [W3 school's page on HTML paragraphs here.](https://www.w3schools.com/htmL/html_paragraphs.asp)
+
+All of the formatting tags mentioned above should be used within a `<p>` tag. For example, you should be doing:
+
+`<p> This is how you can <b> bold </b> and <i> italicize </i> things. </p>`
+</details>
