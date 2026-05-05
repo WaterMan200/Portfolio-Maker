@@ -36,7 +36,7 @@ In this section, we'll talk about how to clone this repository to your computer 
 2. Open VS Code (make sure it is the latest version). 
 3. Make a [GitHub account](https://github.com/) if you do not have one already. 
 4. Link your VS Code to your GitHub account
-    - Select the GitHub icon in the activity bar. 
+    - Select the source control (3rd icon) in the activity bar on the left. 
     - Click **Sign In** and follow the prompt to authenticate with GitHub in the browser. 
     - If done correctly, you should be directed back to VS code. 
         - If you have any troubles, visit [VS Code's detailed guide here.](https://code.visualstudio.com/docs/sourcecontrol/github)
@@ -48,7 +48,7 @@ There are 2 ways of "downloading"/modifying the actual repository. The first met
 1. Go to the top of this repository's page and click the **Fork** button in the top right corner. 
 2. Name the repository something of your choice - preferably something that allows you to identify the project easily. Give it a description if you wish to.
 3. Copy the link of the newly created repository from the search bar.
-4. Open VS Code, then click on the version control / GitHub logo on the activity bar and select **Clone Repository**. 
+4. Open VS Code, then click on the source control on the activity bar and select **Clone Repository**. 
 5. Paste the URL that you just copied and select a place for the local version of the repository to be stored on your computer. 
 
 
@@ -57,7 +57,7 @@ There are 2 ways of "downloading"/modifying the actual repository. The first met
 2. Click **download ZIP.**
 3. Locate the ZIP folder and right click and extract all. 
 4. Open VS Code, locate the folder, click it and then open the folder named `Portfolio-Maker-main` inside of the extracted folder in VS Code. 
-5. Click on the GitHub icon in the activity bar and then click **Initiatlize Repository**.
+5. Click on the source control icon in the activity bar and then click **Initiatlize Repository**.
 6. You should then be brought to a screen with a list of changes that you have made that are avaliable to push. Type a message above the button that says **Commit** that says something along the lines of "intializing repository". 
 7. Click on the arrow pointing downwards next to the **Commit** button and click **Commit & Push**. 
     - If there is a pop-up saying something along the lines of "There are no staged changes. Would you like to stage your changes and commit", click yes. 
@@ -184,7 +184,6 @@ Once you understand that, all you need to do in order to change the description 
 <details>
 <summary>Formatting The Content</summary>
 
-### Formatting Text In HTML
 You are able to format text in HTML by putting the content between the tags. 
 Some of the tags that are avaliable for formatting are:
 - `<b>` - Bold text
