@@ -26,7 +26,7 @@ The home page comes with an about me section that users can use to provide a bri
 </details>
 
 ## Getting Started with the Template
- There are many ways you can modify this template in order to suit your needs. We will be going in detail for some of the ways you can change the colors, images, etc. This guide is going to be for people who are new and experienced with HTML and CSS so everyone can utilize and customize this portfolio template to their wishes. 
+ There are many ways you can modify this template in order to suit your needs. We will be going in detail for some of the ways you can change the colors, images, etc. This guide is going to be for people who are new and experienced with HTML and CSS so everyone can utilize and customize this portfolio template to their wishes. This guide is not meant to serve as a way to properly learn HTML & CSS; while some concepts are covered it is very difficult to teach everyone HTML and CSS via a README page. This README serves as a guide to using this portfolio and customizing it in order to make it your portfolio all while keeping it simple to use for people who do and do not have experience with programming/HTML and CSS. If you wish to learn HTML and CSS, visit [W3school's HTML Guide](https://www.w3schools.com/html/html_intro.asp).  
 
 ### Downloading the Template & Hosting it on GitHub
 In this section, we'll talk about how to clone this repository to your computer so that you can host it on GitHub pages and be able to use it like a real website. 
@@ -208,3 +208,64 @@ All of the formatting tags mentioned above should be used within a `<p>` tag. Fo
 `<p> This is how you can <b> bold </b> and <i> italicize </i> things. </p>`
 </details>
 
+#### Adding & Removing More Content on the Skills, Experiences and Projects Pages
+The base template of the portfolio only comes with 3 skill blocks on the skills page, 2 experience blocks on the experience page, and only 3 project blocks on the project page. What should you be doing if you need to add more or remove blocks?
+
+Both the Skills and Projects page are very similar to each other in how they alternate the orientation of the image and text after each block. Here is how you can add or remove more blocks.
+ 
+Each block is treated as its own object in the section. Locate the following code in the projects file:
+```
+<h1 class="projectspagetitle">My Projects</h1>
+        <section class="projects">
+            <div class="project">
+                <div class="project_text" id="p1">
+                <h2>Project 1</h2>
+                <p>This is my project 1 description!
+                    <br>
+                    I need to add more to it!
+                </p>
+                </div>
+                <img src="../images/project1templateimagereal.jpg" alt="project 1 template image">
+            </div>
+
+            <div class="project project_opposite">
+                <div class="project_text" id="p2">
+                    <h2>Project 2</h2>
+                    <p>This is the project 2 reverse description!
+                    <br>
+                    There needs to be more added here.
+                    </p>
+                </div>
+                <img src="../images/project1templateimagereal.jpg" alt="project 1 template image reversed">
+            </div>
+
+            <div class="project">
+                <div class="project_text">
+                    <h2>Project 3</h2>
+                    <p>This is the project 3 description!
+                    <br>
+                    Yes!
+                    </p>
+                </div>
+                <img src = "../images/project1templateimagereal.jpg" alt="project 3 template image">
+            </div>
+```
+
+In order to add more blocks (or rather more projects that you have worked on), you would need to create a new `<div>` of either the class of `project` or `project project opposite`. After that you would want to create another division under the division that you just created and assign it the class of `project_text` and give it a ID of a new number if you want to customize it separately from the other text. Under the 2nd division that you just made, create a new header using the `<h2>` tag to create the label for your new project (make sure to close it after the text). After you've closed the `<h2>` tag, move down to the next line and create a `<p>` tag similar to the `<h2>` tag and put the description of that project under the the newly-made paragraph text. Then, close the 2nd division as the 2nd division is only used for text. Before closing the first division that you made, add an image if you want to using the `<img>` tag (scroll above to see how to modify images) by referencing the new image location. Finally, close the first division tag that you have made. This will allow you to create a new project. You can repeat the similar if not the same steps in order to create more blocks in the Skills page as well.
+
+##### Removing Blocks
+Removing blocks is a much easier process. All of you have to do is select one of the blocks, for example:
+```
+            <div class="project">
+                <div class="project_text">
+                    <h2>Project 3</h2>
+                    <p>This is the project 3 description!
+                    <br>
+                    Yes!
+                    </p>
+                </div>
+                <img src = "../images/project1templateimagereal.jpg" alt="project 3 template image">
+            </div>
+```
+
+and delete it from your code. This should automatically remove this specific block. It can be applied to any three of the Skills, Experiences or Projects. 
